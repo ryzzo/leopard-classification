@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+.env/
+.envrc
+.venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# PyTorch / Training Artifacts
+# Checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# TensorBoard logs
+runs/
+logs/
+events.out.tfevents.*
+
+# ONNX / Model Exports
+*.onnx
+exports/
+model_exports/
+
+# Data (raw + processed)
+# Raw data (never commit large datasets)
+trainer/data/
+trainer/data/processed_images/
+
+# Large intermediate files
+*.h5
+*.npz
+*.npy
+*.pkl
+
+# CSV outputs / submissions
+submission.csv
+*.submission.csv
+*.predictions.csv
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# VSCode
+.vscode/
+
+# Misc
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# System
+Thumbs.db
+Desktop.ini
